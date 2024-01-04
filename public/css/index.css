@@ -1,4 +1,5 @@
 .task1 {
+  display: flex;
 }
 
 .task2 {
@@ -7,18 +8,22 @@
 
 .task3 {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .task4 {
   display: flex;
+  flex-direction: column;
 }
 
 .task5 {
   display: flex;
+  flex-direction: column-reverse;
 }
 
 .task6 {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .task7 {
@@ -27,10 +32,14 @@
 
 .task8 {
   display: flex;
+ flex-wrap: wrap-reverse;
+  
 }
 
 .task9 {
   display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 
 .task10 {
@@ -39,22 +48,27 @@
 
 .task11 {
   display: flex;
+  justify-content: end;
 }
 
 .task12 {
   display: flex;
+  justify-content: center;
 }
 
 .task13 {
   display: flex;
+  justify-content: space-between;
 }
 
 .task14 {
   display: flex;
+  justify-content: space-around;
 }
 
 .task15 {
   display: flex;
+  justify-content: space-evenly;
 }
 
 .task16 {
@@ -63,14 +77,17 @@
 
 .task17 {
   display: flex;
+align-content: start;
 }
 
 .task18 {
   display: flex;
+  align-content: end;
 }
 
 .task19 {
   display: flex;
+  align-content: center;
 }
 
 .task20 {
@@ -79,18 +96,23 @@
 
 .task21 {
   display: flex;
+  align-content: space-between;
 }
 
 .task22 {
   display: flex;
+  align-content: space-around;
 }
 
 .task23 {
   display: flex;
+  align-content: space-evenly;
 }
 
 .task24 {
   display: flex;
+align-content: start;
+justify-content: center;
 }
 
 .task25 {
@@ -99,10 +121,13 @@
 
 .task26 {
   display: flex;
+ align-items: end;
+ 
 }
 
 .task27 {
   display: flex;
+  align-items: center;
 }
 
 .task28 {
@@ -126,6 +151,7 @@
 }
 
 .task34 .item1 {
+  flex-grow: 1;
 }
 
 .task35 .item2 {
@@ -135,13 +161,17 @@
 }
 
 .task37 .item4 {
+  flex-grow: 4;
 }
 
 .task38 {
   display: flex;
+  gap: 20px 30px;
 }
 
 .task39 .item1 {
+flex-order: ;
 }
 .task39 .item3 {
+  flex-grow: ;
 }
